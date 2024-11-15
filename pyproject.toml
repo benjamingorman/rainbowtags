@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rainbowtags"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin Gorman <benjamin@messium.co.uk>"]
+readme = "README.md"
+packages = [
+  {include = "rainbowtags", from = "src"}
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.poetry.dependencies]
+python = "^3.12"
+svgwrite = "^1.4.3"
+python-barcode = "^0.15.1"
+lxml = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
