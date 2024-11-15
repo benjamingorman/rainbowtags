@@ -89,7 +89,7 @@ def reformat_svg(
             num_lines = 1
         else:
             # Thick line
-            num_lines = 8
+            num_lines = 4
 
         line_thickness = (width * x_scale) / num_lines
 
